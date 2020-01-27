@@ -29,4 +29,5 @@ int main(){
     cout << "The meeting meets fire regulation standards." << endl;
 
   }
+  return 0;
 }

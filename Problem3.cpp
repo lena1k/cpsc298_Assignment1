@@ -39,5 +39,5 @@ int main(){
   cout << "Your withholding amount: " << withholdingAmnt << endl;
   cout << "Your net take-home pay: " << netTakeHomePay << endl;
 
-
+  return 0;
 }
