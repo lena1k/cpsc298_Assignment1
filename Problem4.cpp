@@ -14,7 +14,7 @@ int main()
     // prompt user for years, cost, and inflation rate
     cout << "In how many years from now will the item be purchased? ";
     cin >> yearsFromNow;
-    cout << "What is the cost of the item? ($) "
+    cout << "What is the cost of the item? ($) ";
     cin >> costOfItem;
     cout << "What is the inflation rate? (%) ";
     cin >> inflationRate;
@@ -23,7 +23,7 @@ int main()
     inflationRate = inflationRate / 100;
 
     // loop to calculate the cost of the item after given years
-    for(int i=0;i<yearsFromNow;i++){
+    for(int i=0;i<yearsFromNow;++i){
       costOfItem = costOfItem + costOfItem * inflationRate;
   }
 
